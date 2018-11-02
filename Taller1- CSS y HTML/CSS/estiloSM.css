@@ -1,0 +1,30 @@
+.caja{
+  border: 2px solid #606060;
+  width: 120px;
+  height: 144px;
+  border-radius: 10px ;
+  float: left;
+  margin-right: 17px;
+  margin-bottom: 2px;
+  
+
+
+}
+
+.caja > p{
+  color: black;
+  font-family: 'Baloo';
+  font-size: 36px;
+  margin-left: 17px;
+  
+}
+
+
+
+.cpar{
+  background-color:  #f7fade;
+}
+
+.cimpar{
+  background-color:  #dfedd6;
+}
