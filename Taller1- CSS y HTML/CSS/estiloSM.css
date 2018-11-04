@@ -13,9 +13,7 @@
   color: black;
   font-family: 'Baloo';
   font-size: 36px;
-  margin: 44px 0px 44px 17px; 
-  align-content: center;
-  font-weight: bold;
+  margin: 44px 0px 44px 17px;  
 }
 
 .cpar{
@@ -27,7 +25,7 @@
 }
 
 #cajas{
-  overflow-x: scroll;
+  overflow-x: auto;
   white-space: nowrap;        
 }
   
