@@ -5,8 +5,8 @@
   height: 144px;
   border-radius: 10px ;
   display: inline-block;
-  margin: auto 17px auto 0px;
-
+  margin-right: 17px;
+  margin-left: 0;
 }
 
 .caja > p{
@@ -15,7 +15,7 @@
   font-size: 36px;
   margin: 44px 0px 44px 17px; 
   align-content: center;
-  
+  font-weight: bold;
 }
 
 .cpar{
