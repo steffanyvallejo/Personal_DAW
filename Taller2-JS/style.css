@@ -1,0 +1,18 @@
+.buscar{
+  background-color:dodgerblue;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-left: 5px;
+  border-color: blue;
+}
+
+#buscador, .buscar{
+-webkit-box-shadow: 0px 10px 16px -1px rgba(181,174,181,1);
+-moz-box-shadow: 0px 10px 16px -1px rgba(181,174,181,1);
+box-shadow: 0px 10px 16px -1px rgba(181,174,181,1);
+}
+
+#tweets{
+  margin-top: 20px;
+}
+
