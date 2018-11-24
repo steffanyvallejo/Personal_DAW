@@ -1,18 +1,63 @@
 .buscar{
-  background-color:dodgerblue;
+  background-color:#95B4FA  ;
   font-weight: bold;
   border-radius: 10px;
   margin-left: 5px;
-  border-color: blue;
+  margin:auto;
+  
+
 }
 
 #buscador, .buscar{
 -webkit-box-shadow: 0px 10px 16px -1px rgba(181,174,181,1);
 -moz-box-shadow: 0px 10px 16px -1px rgba(181,174,181,1);
 box-shadow: 0px 10px 16px -1px rgba(181,174,181,1);
+width: 100%
 }
 
-#tweets{
-  margin-top: 20px;
+div{
+  height:100%;
+  width: 100%;
+}
+.card{
+  margin-top: 30px;
+  
 }
 
+.card-header{
+  background-color: white;
+  border: none;
+}
+
+ #texto{
+   background-color: dodgerblue;
+   padding: 10px;
+   font-weight: bold;
+   text-align: center;
+   font-size: 18pt;
+ }
+
+ footer{
+   visibility:hidden;
+ }
+
+ .contenido{
+   text-align: center;
+
+ }
+.contenido > p{
+  word-spacing:-2px;
+  letter-spacing: 0px ;
+  text-align: justify;
+  white-space: normal;
+}
+
+.contenido >p:before{
+  content:'\"';
+}
+.contenido >p:after{
+  content:'\"';
+}
+.fecha{
+  font-style: oblique;
+}
